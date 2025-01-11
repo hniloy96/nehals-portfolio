@@ -1,5 +1,6 @@
 // src/components/Navbar.jsx
 import React, { useState, useEffect } from 'react';
+import "./navbar.css"
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
@@ -29,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-dark bg-dark ${isVisible ? 'navbar-visible' : 'navbar-hidden'}`}
+      className={`navbar navbar-expand-lg ${isVisible ? 'navbar-visible' : 'navbar-hidden'}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
