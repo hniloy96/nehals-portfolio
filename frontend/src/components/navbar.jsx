@@ -50,7 +50,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto text-end">
             <li className="nav-item">
               <Link to="/about" className="nav-link">
                 About
