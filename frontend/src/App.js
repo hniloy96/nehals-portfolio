@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
+import Home from "./pages/home";
+
 
 function App() {
   return (
     <div className="App">
       <header>
-        <Navbar />
-        <h1>I LOVE YOU Dear Wife</h1>
+        <Home />
       </header>
     </div>
   );

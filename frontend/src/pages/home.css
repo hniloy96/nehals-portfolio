@@ -1,0 +1,22 @@
+/* Home.css */
+.homepage {
+    background-image: url('../contents/image_2.jpg');  /* Adjust path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;  /* Text color for visibility */
+  }
+
+
+
+
+  @media (max-width: 768px) {
+    .homepage {
+      background-image: url('../contents/image_2.jpg');
+      background-size: fill;  /* Ensure the whole image is visible without cutting off */
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;  /* Still fill the screen */
+    }
+  }
